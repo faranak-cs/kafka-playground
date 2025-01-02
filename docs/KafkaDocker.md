@@ -198,7 +198,7 @@ docker exec -it kafka1 bash
 /var/lib/kafka/data/
 ```
 
-### How to view the commit log?
+### View the commit log
 
 ```
 docker exec -it kafka1 bash
