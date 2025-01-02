@@ -157,7 +157,7 @@ kafka-topics --bootstrap-server kafka1:19092 \
 --alter --topic test-topic --partitions 40
 ```
 
-### How to view consumer groups
+### How to view Consumer groups
 
 ```
 docker exec -it kafka1 bash
@@ -167,7 +167,7 @@ docker exec -it kafka1 bash
 kafka-consumer-groups --bootstrap-server kafka1:19092 --list
 ```
 
-#### Consumer Groups and their Offset
+#### Consumer groups and their Offset
 
 ```
 docker exec -it kafka1 bash
